@@ -63,7 +63,7 @@ class Prophet(object):
     interval_width: Float, width of the uncertainty intervals provided
         for the forecast. If mcmc_samples=0, this will be only the uncertainty
         in the trend using the MAP estimate of the extrapolated generative
-        model. If mcmc.samples>0, this will be integrated over all model
+        model. If mcmc_samples>0, this will be integrated over all model
         parameters, which will include uncertainty in seasonality.
     uncertainty_samples: Number of simulated draws used to estimate
         uncertainty intervals.
